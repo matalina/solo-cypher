@@ -1,38 +1,17 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+
 </script>
 
-<main class="text-center p-4 mx-0">
-  <img width="100" height="100" src={logo} alt="Svelte Logo" class="inline-block" />
-  <h1 class="text-6xl uppercase font-thin leading-tight my-8 mx-auto max-w-xs sm:max-w-xs">Hello Vite!</h1>
+<header>
+  Solo Cypher
+</header>
 
-  <Counter id="0" />
+<main>
 
-  <p class="max-w-xs sm:max-w-none my-4 mx-auto leading-5">
-    Visit <a class="text-[#ff4500] hover:underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p class="max-w-xs sm:max-w-none my-4 mx-auto leading-5">
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
-
-  <div class="text-red-500 p-2">
-    <a href="https://svelte.dev/" target="_blank" class="p-2 hover:underline">Svelte</a> +
-    <a href="https://tailwindcss.com/" target="_blank" class="p-2 hover:underline">Tailwind CSS</a> +
-    <a href="https://www.typescriptlang.org/" target="_blank" class="p-2 hover:underline">TypeScript</a> +
-    <a href="https://vitejs.dev/" target="_blank" class="p-2 hover:underline">Vite</a>
-  </div>
 </main>
 
-<style lang="postcss">
-  :root {
-    --svelte-rgb: 255, 62, 0;
-  }
+<footer class="text-xs text-center w-11/12 mx-auto p-3">
+  <p>This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at <a href="http://csol.montecookgames.com">http://csol.montecookgames.com/</a>.</p>
 
-  h1 {
-    color: rgb(var(--svelte-rgb));
-  }
-</style>
+  <p>CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.</p>
+</footer>
