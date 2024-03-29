@@ -26,5 +26,9 @@
     "ts-jest": "^26.5.4",
     "typescript": "^4.9.5",
     "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@macfja/svelte-persistent-store": "^2.4.1",
+    "dropbox": "^10.34.0"
   }
 }
