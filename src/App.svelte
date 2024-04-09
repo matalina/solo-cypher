@@ -1,6 +1,9 @@
 <script lang="ts">
-    import ActionBar from "./ui/ActionBar.svelte";
+import Session from "./screens/Session.svelte";
+import ActionBar from "./ui/ActionBar.svelte";
 import Dropbox from "./ui/Dropbox.svelte";
+import { screen } from './stores';
+    import Game from "./screens/Game.svelte";
 
 
 </script>
@@ -16,15 +19,11 @@ import Dropbox from "./ui/Dropbox.svelte";
       <ActionBar/>
     </section>
     <section id="story" class="flex-grow flex flex-col">
-      <section id="status">
-        Adventure Status
-      </section>
-      <section id="log" class="flex-grow overflow-y-scroll">
-        Story Log
-      </section>
-      <section id="input">
-        User Input
-      </section>
+      {#if $screen === 'session'}
+        <Session/>
+      {:else if $screen === 'game'}
+        <Game/>  
+      {/if}
     </section>
     <section id="information" class="w-80">
       <section id="character" class="overflow-y-scroll">

@@ -33,4 +33,23 @@
   h5 {
     @apply text-lg;
   }
+
+  hr {
+    @apply mb-2;
+  }
+
+  label {
+    @apply w-full flex flex-col mb-3;
+  }
+  label span {
+    @apply text-xs uppercase text-orange-800;
+  }
+
+  button {
+    @apply bg-orange-300;
+    @apply hover:bg-orange-500 focus:bg-orange-500 active:bg-orange-600;
+  }
+  input, button, select {
+    @apply px-3 py-1 border border-orange-800 text-orange-800 rounded-md;
+  }
 }

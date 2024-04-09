@@ -28,6 +28,7 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@dice-roller/rpg-dice-roller": "^5.5.0",
     "@macfja/svelte-persistent-store": "^2.4.1",
     "dropbox": "^10.34.0"
   }
